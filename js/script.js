@@ -60,7 +60,7 @@ function validateForm() {
 
     function errorMessage() {
         verivLabel.style.color = '#ae2d68'
-        setTimeout(() => {verivLabel.innerHTML = ""}, 2000)
+        setTimeout(() => {verivLabel.innerHTML = ""}, 3000)
     }
 
     if (name == '' || email == '') {
